@@ -1,2 +1,4 @@
 # ARCHE
-Repository for the paper "ARCHE – Autoregressive Residual Compression with Hyperprior and Excitation"
+This is the official repository for our paper "ARCHE – Autoregressive Residual Compression with Hyperprior and Excitation".
+
+Sofia Iliopoulou, Dimitris Ampeliotis and Athanassios Skodras
