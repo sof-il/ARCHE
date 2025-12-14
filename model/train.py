@@ -1,5 +1,5 @@
 """ This script requires TFC v2 ('pip install tensorflow-compression==2.*'). """
-
+""" Parts of this are based on the code for the Minnen and Singh's "Channel-wise Autoregressive Entropy Models for Learned Image Compression" paper."""
 import os
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
