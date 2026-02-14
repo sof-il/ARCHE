@@ -279,7 +279,7 @@ class SliceTransform(tf.keras.layers.Layer):
 
         return x
 
-class MS2020Model(tf.keras.Model):
+class ARCHEModel(tf.keras.Model):
   """Main model class."""
 
   def __init__(self, lmbda,
@@ -504,7 +504,7 @@ class MS2020Model(tf.keras.Model):
 
 testdataset, original_ds = get_custom_dataset("test", "Give filepath")
 
-model = MS2020Model(
+model = ARCHEModel(
     lmbda = 0.01, num_filters = 192, latent_depth = 320, hyperprior_depth = 192,
     num_slices = 10, max_support_slices = 9, num_scales = 64, scale_min = 0.11,
     scale_max = 256.)
