@@ -3,4 +3,4 @@ This is the official repository for our paper "ARCHE – Autoregressive Residual
 
 Sofia Iliopoulou, Dimitris Ampeliotis and Athanassios Skodras
 
-More will be added soon.
+https://arxiv.org/abs/2603.10188
